@@ -5,15 +5,14 @@
     height: 30px;
     background-color: #F7F7F7;
     line-height: 30px;
-    font-size:90%;
+    font-size: 90%;
 }
 
 /*a :hover {*/
-    /*background-color: aqua;*/
+/*background-color: aqua;*/
 /*}*/
 
 .leftTopBarArea {
-    float: left;
     margin-left: 30px;
 }
 
@@ -22,11 +21,61 @@
     padding-left: 16px;
 }
 
-.collectionIcon {
+.rightTopBarArea {
+    margin-right: 100px;
+}
+
+/* logoBar */
+.logoBar {
+    height: 90px;
+    background-color: #1d7ad9;
+}
+
+.logo {
+    padding-left: 35px;
+    padding-top: 12px;
+}
+
+.searchBox {
+    /* width应为430px,但input text默认样式偏大,暂未找到如何清除该样式 */
+    width: 430px;
+    padding-right: 220px;
+    padding-top: 26px;
 
 }
 
-.rightTopBarArea {
-    float: right;
-    margin-right: 100px;
+.searchText {
+    width: 358px;
+    height: 34px;
+    font-size: 18px;
+}
+
+.searchButton {
+    width: 70px;
+    height: 36px;
+    color: #FFF;
+    font-size: 14px;
+    background-color: #ff8c00;
+}
+
+.shopCart {
+    width: 150px;
+    height: 35px;
+    color: #FFFFFF;
+    margin-top: 26px;
+    margin-right: 80px;
+    background-color: #ff8c00;
+}
+
+.shopCartText {
+    line-height: 35px;
+    border-right: #E27A00 solid 1px;
+    background: url("../assets/headerBar/logoBar/购物车图标.png") 10px center no-repeat;
+    padding-left: 40px;
+}
+
+.shopCartCounter {
+    width: 56px;
+    border-left: #ff9c01 1px solid;
+    line-height: 35px;
 }

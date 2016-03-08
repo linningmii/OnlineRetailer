@@ -20,3 +20,11 @@ a{
     color: #656565;
     font-weight: bold;
 }
+
+.floatLeft{
+    float: left;
+}
+
+.floatRight{
+    float: right;
+}

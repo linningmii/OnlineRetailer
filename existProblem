@@ -1,0 +1,5 @@
+
+1.topBar部分的超链接hover存在bug;
+2.searchBox中的searchText默认样式没有清除干净,目前占用的范围超过设计的360px*35px;
+3.shopCart排版存在对齐的问题;
+4.
