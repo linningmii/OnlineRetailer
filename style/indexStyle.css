@@ -91,5 +91,87 @@
 
 .shopClass {
     width: 190px;
-    background: url("../assets/headerBar/navigator/三角箭头.png") left center no-repeat;
+}
+
+.shopClass h3 {
+    line-height: 35px;
+    text-align: center;
+    background: url("../assets/headerBar/navigator/三角箭头.png") 150px center no-repeat;
+}
+
+.topNav {
+    line-height: 35px;
+}
+
+.topNav li {
+    float: left;
+}
+
+.topNav li a {
+    height: 35px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.topNav .activeTopNav {
+    background-color: #4593fd;
+}
+
+.shopClassMenu {
+    background-color: #4593fd;
+}
+
+.shopClassItem {
+    padding: 10px 16px;
+    border-bottom: #3487f2 2px solid;
+    border-top: #5aa1fe 2px solid;
+}
+
+.activeShopClassItem {
+    background-color: #ffffff;
+}
+
+.activeShopClassItem .commonItem {
+    color: #000000;
+}
+
+.activeShopClassItem .navGoodsClass {
+    color: #000000;
+}
+
+.activeShopClassItem dt{
+    background: url("#");
+}
+
+.shopClassItem dt {
+    height: 24px;
+    font-size: 80%;
+    background: url("../assets/headerBar/navigator/箭头.png") right no-repeat;
+}
+
+.shopClassItem dt a {
+    color: #FFFFFF;
+}
+
+.commonItem {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.stressItem {
+    display: inline-block;
+    background-color: #106ac0;
+    padding: 2px 5px;
+    border: #5aa1fe 2px solid;
+    border-radius: 100px;
+    text-decoration: underline;
+}
+
+.navGoodsClass {
+    font-size: 70%;
+    color: #c2d9f8;
+    padding-right: 4px;
 }
