@@ -22,7 +22,7 @@
 }
 
 .rightTopBarArea {
-    margin-right: 100px;
+    margin-right: 78px;
 }
 
 /* logoBar */
@@ -75,7 +75,21 @@
 }
 
 .shopCartCounter {
-    width: 56px;
+    width: 23px;
     border-left: #ff9c01 1px solid;
+    padding-right: 40px;
     line-height: 35px;
+    text-align: right;
+    background: url("../assets/headerBar/logoBar/箭头.png") 33px center no-repeat;
+}
+
+.navigator {
+    height: 35px;
+    background-color: #1369c0;
+    color: #FFFFFF;
+}
+
+.shopClass {
+    width: 190px;
+    background: url("../assets/headerBar/navigator/三角箭头.png") left center no-repeat;
 }

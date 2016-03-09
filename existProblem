@@ -1,5 +1,10 @@
 
 1.topBar部分的超链接hover存在bug;
-2.searchBox中的searchText默认样式没有清除干净,目前占用的范围超过设计的360px*35px;
-3.shopCart排版存在对齐的问题;
-4.
+
+2.searchBox中的searchText占用的范围超过设计的360px*35px,猜测是默认样式没有清除干净;
+
+//3.shopCart排版存在对齐的问题;
+shopCartText和shopCartCounter两个子盒子的长度计算有误,调整了shopCartCounter的宽度.
+
+//4.shopCounter数字向右增长,应改为向左;
+使用text-align:right使数字右对齐,并且调整对应的盒子尺寸以及padding值.
