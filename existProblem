@@ -9,6 +9,11 @@ shopCartText和shopCartCounter两个子盒子的长度计算有误,调整了shop
 //4.shopCounter数字向右增长,应改为向左;
 使用text-align:right使数字右对齐,并且调整对应的盒子尺寸以及padding值.
 
-5.stressItem中使用了CSS3.0新增的border-radius属性,使边框可以支持圆角矩形,这在IE6,7,8中不被支持.
+5.stressItem中使用了CSS3.0新增的border-radius属性,使边框可以支持圆角矩形,这在IE6,7,8中不被支持;
 
 6.图片素材由于之前页面制作中的误差导致的素材不匹配大小,需要一种能快捷调整误差的设计模式.
+
+//7.图片自适应bannerBoard大小;
+给.bannerBoard .imgBox img赋予样式{width: 1010px; height: 315px;}
+
+8.img盒子尺寸为1010px*315px,包含img盒子的li盒子的尺寸为1010px*315px,确认reset.css已清除li盒子的默认样式,目前通过设置height:100%暂时解决;

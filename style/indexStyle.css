@@ -83,6 +83,7 @@
     background: url("../assets/headerBar/logoBar/箭头.png") 33px center no-repeat;
 }
 
+/*navigator*/
 .navigator {
     height: 35px;
     background-color: #1369c0;
@@ -142,7 +143,7 @@
     color: #000000;
 }
 
-.activeShopClassItem dt{
+.activeShopClassItem dt {
     background: url("#");
 }
 
@@ -174,4 +175,56 @@
     font-size: 70%;
     color: #c2d9f8;
     padding-right: 4px;
+}
+
+.bannerBoard {
+    position: relative;
+    width: 1010px;
+    height: 315px;
+    overflow: hidden;
+}
+
+.imgBox{
+    width: 1010px;
+    height: 315px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.imgBox li{
+    height: 100%;
+}
+
+/*设置banner中图片的默认尺寸*/
+.bannerBoard .imgBox img {
+    width: 1010px;
+    height: 315px;
+}
+
+.bannerPageNumber {
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.bannerPageNumber a {
+    display: inline-block;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #FFFFFF;
+    margin: 0 5px;
+    border-radius: 10px;
+    /*CSS3 standard*/
+    opacity: 0.7;
+    /* for IE */
+    filter: alpha(opacity=60);
+}
+
+.bannerPageNumber .activeBannerBoard {
+    background-color: #ff8800;
+    color: #FFFFFF;
 }
