@@ -1,5 +1,6 @@
 
-1.topBar部分的超链接hover存在bug;
+//1.topBar部分的超链接hover存在bug;
+a为行内元素,hover样式只对块状元素生效,通过display:inline-block是a具有块状元素的特征.
 
 2.searchBox中的searchText占用的范围超过设计的360px*35px,猜测是默认样式没有清除干净;
 
@@ -17,3 +18,5 @@ shopCartText和shopCartCounter两个子盒子的长度计算有误,调整了shop
 给.bannerBoard .imgBox img赋予样式{width: 1010px; height: 315px;}
 
 8.img盒子尺寸为1010px*315px,包含img盒子的li盒子的尺寸为1010px*315px,确认reset.css已清除li盒子的默认样式,目前通过设置height:100%暂时解决;
+
+9..more的排版问题,没有正常浮动到右端对齐;
