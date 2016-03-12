@@ -191,8 +191,8 @@
     width: 1010px;
     height: 315px;
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 0px;
+    top: 0px;
 }
 
 .bannerBoard .imgBox li {
@@ -208,18 +208,20 @@
 .bannerPageNumber {
     position: absolute;
     left: 0;
-    bottom: 8px;
+    bottom: 12px;
     width: 100%;
     text-align: center;
 }
 
-.bannerPageNumber a {
+.bannerPageNumber a input{
     display: inline-block;
     width: 20px;
     line-height: 20px;
     text-align: center;
     background-color: #FFFFFF;
     margin: 0 5px;
+    font-size: 14px;
+    font-weight: bold;
     border-radius: 10px;
     /*CSS3 standard*/
     opacity: 0.7;
