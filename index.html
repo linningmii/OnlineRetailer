@@ -35,7 +35,8 @@
         <script src="js/bannerChange.js"></script>
         <div class="searchBox floatRight">
             <input type="text" class="searchText floatLeft">
-            <input type="button" id="searchBtn" value="搜 索" class="searchButton floatRight" onclick="TestJS()">
+            <input type="button" id="searchBtn" value="搜 索" class="searchButton floatRight"
+                   onclick="TestJS(this.value)">
         </div>
     </div>
 
@@ -108,7 +109,7 @@
 <div class="banner commonWidth clearFix">
     <div class="bannerBoard floatLeft">
         <!--bannerBoard中的产品宣传图的规格为1010px*315px-->
-        <ul class="imgBox">
+        <ul class="imgBox" id="imgBox">
             <li><a href="#"><img src="assets/banner/产品宣传图1.png" alt="bannerBoard_1"></a></li>
             <li><a href="#"><img src="assets/banner/产品宣传图2.jpg" alt="bannerBoard_2"></a></li>
             <li><a href="#"><img src="assets/banner/产品宣传图3.jpg" alt="bannerBoard_3"></a></li>
@@ -116,11 +117,15 @@
             <li><a href="#"><img src="assets/banner/产品宣传图5.jpg" alt="bannerBoard_5"></a></li>
         </ul>
         <div class="bannerPageNumber">
-            <a href="#"><input type="button" value="1" class="activeBannerBoard" onclick="bannerChange(1)"></a>
-            <a href="#"><input type="button" value="2" onclick="bannerChange(2)"></a>
-            <a href="#"><input type="button" value="3" onclick="bannerChange(3)"></a>
-            <a href="#"><input type="button" value="4" onclick="bannerChange(4)"></a>
-            <a href="#"><input type="button" value="5" onclick="bannerChange(5)"></a>
+            <a href="#"><input type="button" name="bannerPageNumber" value="1" class="activeBannerBoard" onclick="bannerChange(this.value)"></a>
+            <a href="#"><input type="button" name="bannerPageNumber" value="2" class="inactiveBannerBoard"
+                               onclick="bannerChange(this.value)"></a>
+            <a href="#"><input type="button" name="bannerPageNumber" value="3" class="inactiveBannerBoard"
+                               onclick="bannerChange(this.value)"></a>
+            <a href="#"><input type="button" name="bannerPageNumber" value="4" class="inactiveBannerBoard"
+                               onclick="bannerChange(this.value)"></a>
+            <a href="#"><input type="button" name="bannerPageNumber" value="5" class="inactiveBannerBoard"
+                               onclick="bannerChange(this.value)"></a>
         </div>
     </div>
 </div>
