@@ -20,3 +20,7 @@ shopCartText和shopCartCounter两个子盒子的长度计算有误,调整了shop
 8.img盒子尺寸为1010px*315px,包含img盒子的li盒子的尺寸为1010px*315px,确认reset.css已清除li盒子的默认样式,目前通过设置height:100%暂时解决;
 
 9..more的排版问题,没有正常浮动到右端对齐;
+
+10.bannerBoard点击按钮切换图片时,浏览器会重置当前网页的可视区域到最顶端;
+
+11.bannerBoard数字按钮在各个浏览器中展示效果不一致,在safari和chrome中显示高度比在firefox中高,效果不为圆形;
