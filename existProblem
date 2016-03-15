@@ -28,3 +28,5 @@ shopCartText和shopCartCounter两个子盒子的长度计算有误,调整了shop
 //12.块状元素间会出现间隙;
 对元素设置display;inline-block导致,通过将父元素的font-size设为0的方式解决inline-block中的间隙.
 这里介绍了多种去除inline-block间隙的方式 http://www.zhangxinxu.com/wordpress/2012/04/inline-block-space-remove-%E5%8E%BB%E9%99%A4%E9%97%B4%E8%B7%9D/
+
+13.浏览器放大缩小时元素边长的精度问题导致的样式不对齐;
