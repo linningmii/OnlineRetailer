@@ -230,19 +230,19 @@
 }
 
 .bannerPageNumber a input {
-    display: inline-block;
-    width: 20px;
-    line-height: 20px;
-    text-align: center;
-    margin: 0 5px;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 10px;
-    /*CSS3 standard*/
-    opacity: 0.7;
-    /* for IE */
-    filter: alpha(opacity=60);
-}
+     display: inline-block;
+     width: 20px;
+     line-height: 20px;
+     text-align: center;
+     margin: 0 5px;
+     font-size: 14px;
+     font-weight: bold;
+     border-radius: 10px;
+     /*CSS3 standard*/
+     opacity: 0.7;
+     /* for IE */
+     filter: alpha(opacity=60);
+ }
 
 .bannerPageNumber .inactiveBannerBoard {
     background-color: #FFFFFF;
@@ -263,9 +263,10 @@
     padding-left: 65px;
 }
 
+
 .shopTitle .more {
+    margin-top: 30px;
     font-size: 14px;
-    margin-top: 60px;
 }
 
 .shopTitleItem .more:hover {
@@ -274,10 +275,11 @@
 
 /*shopList*/
 .leftShopListArea .imgBox {
-    width: 600px;
+    width: 190px;
     height: 418.25px;
     font-size: 0;
-    /*overflow: hidden;*/
+    overflow: hidden;
+    top: 0px;
 }
 
 .leftShopListArea .imgBox img {
@@ -297,6 +299,59 @@
     height: 100%;
 }
 
+.shopListPageNumber {
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    width: 100%;
+    text-align: center;
+}
+
+.shopListPageNumber a input {
+    display: inline-block;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    /*CSS3 standard*/
+    opacity: 0.7;
+    /* for IE */
+    filter: alpha(opacity=60);
+}
+
+.shopListPageNumber .inactiveBannerBoard {
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+.shopListPageNumber .activeBannerBoard {
+    background-color: #ff8800;
+    color: #FFFFFF;
+}
+
 .shopList .rightShopListArea {
 
+}
+
+.footer{
+    padding: 20px 0;
+    background-color: grey;
+}
+
+.footer p{
+    margin: 5px;
+    color: #000000;
+    text-align: center;
+}
+
+.footer a{
+    color: #000000;
+    font-weight: normal;
+}
+
+.footer span{
+    margin: 0 3px;
 }

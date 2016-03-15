@@ -32,6 +32,8 @@ function bannerChange(buttonValue) {
 }
 
 function shopListBannerChange(buttonValue){
-    var changeBannerBoard = document.getElementById("shopListImgBox");
+    var changeBannerBoard = document.getElementById("shopListImgBox_1");
+    var topMovePx = (buttonValue - 1) * (-418.25);    //图片纵向排列,默认高度为418.25px,初始top为0,top每减少418.25px即切换到下一张图片
+    changeBannerBoard.style.top = topMovePx + "px";
 }
 
