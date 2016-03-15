@@ -19,7 +19,7 @@ function TestJS(x) {
 
 function bannerChange(buttonValue) {
     //切换图片内容
-    var changeBannerBoard = document.getElementById("imgBox");
+    var changeBannerBoard = document.getElementById("bannerBoardImgBox");
     var topMovePx = (buttonValue - 1) * (-315);    //图片纵向排列,默认高度为315px,初始top为0,top每减少315px即切换到下一张图片
     changeBannerBoard.style.top = topMovePx + "px";
 
@@ -29,5 +29,9 @@ function bannerChange(buttonValue) {
         bannerPageNumber[btnNum - 1].className = "inactiveBannerBoard";
     }
     bannerPageNumber[buttonValue - 1].className = "activeBannerBoard";
+}
+
+function shopListBannerChange(buttonValue){
+    var changeBannerBoard = document.getElementById("shopListImgBox");
 }
 
