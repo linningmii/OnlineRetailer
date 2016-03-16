@@ -129,6 +129,7 @@
 
 .shopClassItem {
     padding: 10px 16px;
+    font-size: 15px;
     border-bottom: #3487f2 2px solid;
     border-top: #5aa1fe 2px solid;
 }
@@ -232,7 +233,8 @@
 .bannerPageNumber a input {
     display: inline-block;
     width: 20px;
-    line-height: 20px;
+    height: 20px;
+    line-height: 18px;
     text-align: center;
     margin: 0 5px;
     font-size: 14px;
@@ -273,13 +275,10 @@
 }
 
 /*shopList*/
-.shopList_1 {
+.shopList {
     position: relative;
 }
 
-.shopList_2 {
-    position: relative;
-}
 
 .leftShopListArea .imgBox {
     width: 190px;
